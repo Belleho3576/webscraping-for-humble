@@ -1,0 +1,22 @@
+:root{
+    --themecolor: rgb(118, 94, 171);
+    --textcolor: fefefe;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--themecolor);
+}
+
+.header__logo{
+    height: 100px;
+    object-fit: contain;
+    width: 150px;
+}
+
+.header__icon{
+    padding: 20px;
+    color: aliceblue;
+}
